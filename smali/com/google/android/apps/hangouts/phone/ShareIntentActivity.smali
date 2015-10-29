@@ -381,6 +381,10 @@
     .locals 4
 
     .prologue
+    const v0, 0x7f0b0236
+
+    invoke-virtual {p0, v0}, Lcom/google/android/apps/hangouts/phone/ShareIntentActivity;->setTheme(I)V
+
     .line 59
     invoke-super {p0, p1}, Lhhw;->onCreate(Landroid/os/Bundle;)V
 
